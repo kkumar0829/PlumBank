@@ -2,7 +2,7 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from PlumBank import constants
+from core import constants
 from core.serializers import UserSerializer, TransactionSerializer, AccountSerializer
 from core.models import *
 from django.core.paginator import Paginator
