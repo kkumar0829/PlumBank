@@ -51,9 +51,12 @@ Account number to be passed in URL
 ```
 Account number to be passed in URL
 
+Request Body to be passed as form-data via client(postman for local testing) for pagination
+
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `none`      | `na` | **Not Required**.|
+| `page`      | `integer` | **Required**.|
+| `per_page`      | `integer` | **Required**.  |
 
 ## Github Link
 Please find the github link below
