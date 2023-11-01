@@ -122,3 +122,5 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # adding message to stage branch
+
+# adding first stash message
