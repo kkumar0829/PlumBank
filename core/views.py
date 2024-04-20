@@ -6,6 +6,20 @@ from core import constants
 from core.serializers import UserSerializer, TransactionSerializer, AccountSerializer
 from core.models import *
 from django.core.paginator import Paginator
+from django.shortcuts import render
+
+
+def landing_page(request):
+    return render(request, 'landing_page.html')
+
+def signup(request):
+    return render(request, 'signup.html')
+
+def login(request):
+    return render(request, 'login.html')
+
+def contact(request):
+    return render(request, 'contact.html')
 
 
 class CreateUser(APIView):

@@ -1,0 +1,32 @@
+<!-- base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}core{% endblock %}</title>
+    <!-- Add your CSS links here -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Your App</h1>
+        <!-- Add your header content here -->
+    </header>
+
+    <!-- Main content -->
+    <main>
+        {% block content %}
+        <!-- Content of child templates will go here -->
+        {% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Add your footer content here -->
+        &copy; 2024 Your App
+    </footer>
+    <!-- Add your JavaScript links here -->
+</body>
+</html>
